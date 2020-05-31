@@ -26,6 +26,7 @@ extension RazeCore {
         /// Responsible for handling networking
         /// - Warning : Must create before using public APIs
         public class Manager {
+            
             internal var session:NetworkSession = URLSession.shared
             public init(){}
             /// Call to live internet to retrieve Data form a specific location

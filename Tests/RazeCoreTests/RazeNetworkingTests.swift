@@ -28,6 +28,7 @@ final class RazeNetworkingTests: XCTestCase {
         let data = Data([0,1,0,1])
         session.data = data
         let url = URL(fileURLWithPath: "ulr")
+        
         manager.loadData(from: url) {result in
             expectation.fulfill()
             switch result {
