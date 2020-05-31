@@ -42,6 +42,7 @@ extension RazeCore {
                 }
                 
             }
+           
             public enum NetworkResult<Value> {
                 case success(Value)
                 case failure(Error?)
