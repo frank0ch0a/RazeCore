@@ -92,8 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_12 /* RazeColorTests.swift */,
-				OBJ_13 /* XCTestManifests.swift */,
 				28E3DCFB2482A4200098838E /* RazeNetworkingTests.swift */,
+				OBJ_13 /* XCTestManifests.swift */,
 			);
 			name = RazeCoreTests;
 			path = Tests/RazeCoreTests;
